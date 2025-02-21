@@ -37,7 +37,7 @@
         app:layout_constraintVertical_bias="0.089" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/Nombre"
         android:layout_width="270dp"
         android:layout_height="49dp"
         android:ems="10"
@@ -51,7 +51,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/CURP"
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:ems="10"
@@ -65,7 +65,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/RFC"
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:ems="10"
@@ -79,7 +79,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
-        android:id="@+id/editTextText5"
+        android:id="@+id/Direccion"
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:ems="10"
@@ -93,7 +93,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/N_Control"
         android:layout_width="241dp"
         android:layout_height="48dp"
         android:ems="10"
@@ -108,7 +108,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/N_Semestre"
         android:layout_width="241dp"
         android:layout_height="48dp"
         android:ems="10"
@@ -123,7 +123,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
-        android:id="@+id/editTextNumber3"
+        android:id="@+id/N_Telefono"
         android:layout_width="241dp"
         android:layout_height="48dp"
         android:ems="10"
@@ -264,7 +264,7 @@
         app:layout_constraintVertical_bias="0.303" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/spinnerCarrera"
         android:layout_width="274dp"
         android:layout_height="48dp"
         android:background="@android:drawable/btn_dropdown"
@@ -279,7 +279,7 @@
         app:layout_constraintVertical_bias="0.295" />
 
     <EditText
-        android:id="@+id/editTextDate"
+        android:id="@+id/Fecha_Nac"
         android:layout_width="174dp"
         android:layout_height="48dp"
         android:ems="10"
@@ -293,7 +293,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnEnviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enviar Datos"
@@ -305,7 +305,7 @@
         app:layout_constraintVertical_bias="0.838" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/Email"
         android:layout_width="239dp"
         android:layout_height="48dp"
         android:ems="10"
